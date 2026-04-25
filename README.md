@@ -1,7 +1,7 @@
--- [[ ACUSADO NINJA HUB MASHMELLOW - ACUSADO DOMINA EDITION ]] --
+-- [[ JD NINJA HUB MASHMELLOW - ACUSADO DOMINA EDITION ]] --
 -- LÓGICA ORIGINAL INTACTA | DISEÑO ROJO/NEGRO | ANTI-KICK 267
 
-local _K = "BACK01"
+local _K = "JD"
 local lp = game:GetService("Players").LocalPlayer
 local vim = game:GetService("VirtualInputManager")
 local vu = game:GetService("VirtualUser")
@@ -28,7 +28,7 @@ tag.Name = "AC_TAG_DOMINA"
 local MainRed = Color3.fromRGB(255, 0, 0)
 local DarkBg = Color3.fromRGB(5, 5, 5)
 
--- [ LOGIN: ACUSADO DOMINA ]
+-- [ LOGIN: JD DOMINA ]
 local LoginFrame = Instance.new("Frame", ScreenGui)
 LoginFrame.Size = UDim2.new(0, 300, 0, 200)
 LoginFrame.Position = UDim2.new(0.5, -150, 0.4, -100)
@@ -90,7 +90,7 @@ local function StartHub()
 
     local Title = Instance.new("TextLabel", MainFrame)
     Title.Size = UDim2.new(1, 0, 0, 40)
-    Title.Text = "ACUSADO NINJA HUB MASHMELLOW"
+    Title.Text = "JD NINJA HUB MASHMELLOW"
     Title.TextColor3 = MainRed
     Title.Font = Enum.Font.GothamBold
     Title.BackgroundTransparency = 1
@@ -242,7 +242,7 @@ local function StartHub()
             end
 
             InfoLabel.Text = string.format([[
-  [ ACUSADO MASHMELLOW HUB ]
+  [ JD  MASHMELLOW HUB ]
   DOMINANDO EL SERVIDOR...
   
   PRODUCTOS:
@@ -255,7 +255,7 @@ local function StartHub()
   - Azucar:  %d
   - Gelatina:%d
   - Bolsas:  %d
-  -precio:   %d
+
   [ SEGURIDAD ]
   Status: Anti-Ban Active
   Key: Verified
